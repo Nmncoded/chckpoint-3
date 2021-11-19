@@ -236,3 +236,51 @@ body {
     color: #012d5b;
     margin-bottom: 10px;
 }
+
+.absolute-para-4 {
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    top: 1046px;
+    left: 194px;
+    /* display: inline-block; */
+}
+
+.absolute-para-4 header {
+    font-size: 22px;
+    font-weight: 650;
+    color: #012d5b;
+    margin-bottom: 10px;
+}
+
+.absolute-para-5 {
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    top: 1046px;
+    left: 194px;
+    /* display: inline-block; */
+}
+
+.absolute-para-5 header {
+    font-size: 22px;
+    font-weight: 650;
+    color: #012d5b;
+    margin-bottom: 10px;
+}
+
+.absolute-para-6 {
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    top: 1046px;
+    left: 194px;
+    /* display: inline-block; */
+}
+
+.absolute-para-6 header {
+    font-size: 22px;
+    font-weight: 650;
+    color: #012d5b;
+    margin-bottom: 10px;
+}
