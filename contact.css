@@ -151,7 +151,7 @@ body {
 /* hero blog section */
 
 .hero-blog {
-    background: url(./assets/media/hero/cases_hero.jpg) center center  no-repeat ;
+    background: url(./assets/media/hero/contact_hero.jpg) center center  no-repeat ;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -162,132 +162,119 @@ body {
     height: 420px;
     margin-bottom: 80px;
 }
-
-/* flex middle section */
+/* map section */
 
 .container-1 {
-    padding: 80px 32px;
+    padding: 20px 32px;
+    padding-top: 30px;
     max-width: 1130px;
     margin: 0 auto;
 }
-.flex-middle {
+
+/* touch flex section */
+
+.touch-flex{
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.form-section-contact {
+    width: 64%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
     flex-wrap: wrap;
 }
-.flex-middle div {
-    width: 30%;
-    margin: 0 30px 30px 0;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.flex-middle div img {
+.form-section header {
     width: 100%;
-}
-
-/* absolute para section */
-
-.container-2 {
-    padding: 20px 20px;
-    max-width: 1130px;
-    margin: 0 auto;
-}
-
-.absolute-para-1 {
-    background-color: white;
-    width: 250px;
-    position: absolute;
-    top: 903px;
-    left: 194px;
-    /* display: inline-block; */
-}
-
-.absolute-para-1 header {
-    font-size: 22px;
-    font-weight: 650;
     color: #012d5b;
-    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 660;
+    margin-bottom: 20px;
 }
-
-.absolute-para-2 {
+.message {
+    width: 100%;
+    height: 200px;
+    color: #cccfd1;
+    border: 2px solid #ebeff2;
+    margin-bottom: 20px;
+    padding: 14px;
+}
+.name {
+    width: 44%;
+    color: #cccfd1;
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 2px solid #ebeff2;
+}
+.email {
+    width: 44%;
+    color: #cccfd1;
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 2px solid #ebeff2;
+}
+.subject {
+    width: 100%;
+    color: #cccfd1;
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 2px solid #ebeff2;
+}
+.form-btn {
     background-color: white;
-    width: 250px;
-    position: absolute;
-    top: 903px;
-    left: 564px;
-    /* display: inline-block; */
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fd656b;
+    color: #fd656b;
+    padding: 12px 10px;
+    letter-spacing: 3px;
 }
 
-.absolute-para-2 header {
-    font-size: 22px;
-    font-weight: 650;
+/* address section */
+
+.address-section {
+    width: 23%;
+    padding: 60px 10px;
+    /* border: 2px solid #ebeff2; */
+}
+.address-1 {
+    display: flex;
+    /* align-items: flex-start; */
+    margin-bottom: 40px;
+}
+.address-1 a {
+    padding-top: 6px;
+    padding-right: 20px;
+}
+.address-1 a i {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    font-size: 32px;
+    vertical-align: middle;
+}
+.margin-right {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start;     */
+    margin-right: 10px;
+}
+
+.address-1 div {
+    line-height: 1.8;
+    vertical-align: middle;
+}
+.address-1 div header {
+    margin-bottom: 4px;
     color: #012d5b;
-    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 780;
 }
-
-.absolute-para-3 {
-    background-color: white;
-    width: 250px;
-    position: absolute;
-    top: 906px;
-    left: 932px;
-    /* display: inline-block; */
-}
-
-.absolute-para-3 header {
-    font-size: 22px;
-    font-weight: 650;
-    color: #012d5b;
-    margin-bottom: 10px;
-}
-
-.absolute-para-4 {
-    background-color: white;
-    width: 250px;
-    position: absolute;
-    top: 1368px;
-    left: 194px;
-    /* display: inline-block; */
-}
-
-.absolute-para-4 header {
-    font-size: 22px;
-    font-weight: 650;
-    color: #012d5b;
-    margin-bottom: 10px;
-}
-
-.absolute-para-5 {
-    background-color: white;
-    width: 250px;
-    position: absolute;
-    top: 1368px;
-    left: 564px;
-    /* display: inline-block; */
-}
-
-.absolute-para-5 header {
-    font-size: 22px;
-    font-weight: 650;
-    color: #012d5b;
-    margin-bottom: 10px;
-}
-
-.absolute-para-6 {
-    background-color: white;
-    width: 250px;
-    position: absolute;
-    top: 1368px;
-    left: 932px;
-    /* display: inline-block; */
-}
-
-.absolute-para-6 header {
-    font-size: 22px;
-    font-weight: 650;
-    color: #012d5b;
-    margin-bottom: 10px;
+.address-1 div p {
+    color: #c2c3c4;
 }
 
 /* form section */
